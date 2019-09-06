@@ -103,7 +103,7 @@ h1{
 .about-img{
     margin-top: 20px;
 }
-.about-content {
+.main-content .about-content .about-text{
     display: flex;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
@@ -111,13 +111,7 @@ h1{
     display: flex;
     flex-wrap: wrap
 }
-
-.about-content .about-text{
-    border-bottom: 1px solid black;
-    padding-bottom: 40px;
-    margin-bottom: 20px;
-}
-.main-content {
+.about-content {
     display: flex;
     Flex-wrap: wrap;
     justify-content: space-between;
