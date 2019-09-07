@@ -103,21 +103,13 @@ h1{
 .about-img{
     margin-top: 20px;
 }
-.main-content .about-content .about-text{
+.main-content .about-content {
     display: flex;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
     margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap
-}
-.about-content {
     display: flex;
-    Flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
+    flex-wrap: wrap;
 
 .main-content .contentText{
     padding: 20px;
