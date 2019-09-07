@@ -93,48 +93,60 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 830px;
     margin: 0 auto;
 }
 
 h1{
     margin-top: 15px;
 }
+
+h2{
+    margin-top: 15px;
+}
+
 .about-img{
     margin-top: 20px;
 }
+.main-content{
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
 .main-content .about-content .about-text{
-    display: flex;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
     margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap
 }
-.about-content {
-    display: flex;
-    Flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 30px;
+.main-content .about-content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 
 .main-content .contentText{
     padding: 20px;
     border-bottom: 1px dashed black;
-    width: 420px;
+    width: 390px;
     margin: 20px 0;
 }
 
 button{
-    padding: 10px 40px;
+    padding: 12px 25px;
     margin-top: 20px;
     cursor: pointer;
     background: white;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 10px;
+    border: 2px solid black;
 }
-
+.learn-btn{
+    font-weight: bold;
+    font-size: 15px;
+}
 .workTogether{
     display: flex;
     margin: 0 2% 20px;
